@@ -1,0 +1,8 @@
+node_modules
+src
+spec
+resource
+example
+.DS_Store
+*.log
+.idea
