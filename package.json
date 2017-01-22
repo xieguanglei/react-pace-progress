@@ -7,9 +7,11 @@
     "test": "./node_modules/karma/bin/karma start ./spec/karma.conf.js",
     "build": "rimraf lib && babel ./src -d lib",
     "start": "node ./example/server.js",
-    "lint": "eslint src example spec"
+    "lint": "eslint src example spec",
+    "prepublish": "npm run build"
   },
   "author": "Xie Guanglei",
+  "repository": "xieguanglei/react-pace-progress",
   "license": "MIT",
   "keywords": [
     "react",
