@@ -1,8 +1,8 @@
-# React Pace Progressbar
+# React Pace Progress
 
-React Pace Progressbar is a simple [pace]-style progressbar component.
+React Pace Progress is a simple [pace]-style progressbar component.
 
-
+![example](https://xieguanglei.github.io/react-pace-progress/resource/examle.gif)
 
 ## Install
 
