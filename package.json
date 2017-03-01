@@ -1,6 +1,6 @@
 {
   "name": "react-pace-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react pace",
   "main": "lib/index",
   "scripts": {
@@ -50,7 +50,7 @@
     "webpack-dev-middleware": "^1.9.0"
   },
   "peerDependencies": {
-    "babel-runtime": "~5.8.20",
+    "babel-runtime": "6.x.x",
     "react": "^15.4.2"
   }
 }
