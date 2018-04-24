@@ -54,7 +54,7 @@ class Pace extends Component {
     const {id, className} = this.props;
 
     return (
-      <div style={styles.container}>
+      <div className="pace-container" style={styles.container}>
         <div {...{id, className}} style={styles.main}/>
       </div>
     );
