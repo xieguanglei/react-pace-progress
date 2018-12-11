@@ -18,7 +18,7 @@ class Pace extends Component {
   componentDidMount() {
     this.intervalId = setInterval(() => {
       this.setState({
-        width: this.state.width + (1 - this.state.width) * 0.25
+        width: this.state.width + (1 - this.state.width) * 0.2
       })
     }, 500 + 200 * Math.random());
   }
