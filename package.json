@@ -1,59 +1,30 @@
 {
   "name": "react-pace-progress",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "react pace",
-  "main": "lib/index",
+  "main": "dist/pace.min.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start ./spec/karma.conf.js",
-    "build": "rimraf lib && babel ./src -d lib",
-    "start": "node ./example/server.js",
-    "lint": "eslint src example spec",
-    "prepublish": "npm run build"
+    "dev": "node ./dev-tools/dev.js",
+    "build": "node ./dev-tools/build.js",
+    "test": "node ./dev-tools/test.js",
+    "prepublishOnly": "npm run build"
   },
-  "author": "Xie Guanglei",
+  "author": "xieguanglei@hotmail.com",
   "repository": "xieguanglei/react-pace-progress",
   "license": "MIT",
   "keywords": [
     "react",
-    "reactjs",
     "react-component",
-    "pace",
     "progress",
     "progress-bar"
   ],
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-core": "^6.21.0",
-    "babel-eslint": "^7.1.1",
-    "babel-loader": "^6.2.10",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-1": "^6.16.0",
-    "css-loader": "^0.26.1",
-    "eslint": "^3.14.0",
-    "eslint-plugin-react": "^6.9.0",
-    "expect": "^1.20.2",
-    "express": "^4.14.0",
-    "jasmine": "~2.3.2",
-    "jasmine-core": "~2.3.4",
-    "karma": "~0.13.9",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "~0.3.6",
-    "karma-phantomjs-launcher": "~0.2.1",
-    "karma-sourcemap-loader": "~0.3.5",
-    "karma-webpack": "~1.7.0",
-    "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "rimraf": "^2.5.4",
-    "webpack": "^1.14.0",
-    "webpack-dev-middleware": "^1.9.0"
+    "dalaran": "^0.2.4",
+    "expect": "^23.6.0",
+    "react-dom": "^16.6.3"
   },
   "dependencies": {
-    "prop-types": "^15.5.10"
-  },
-  "peerDependencies": {
-    "babel-runtime": "6.x.x",
-    "react": "^15.4.2"
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3"
   }
 }

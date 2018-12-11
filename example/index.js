@@ -1,6 +1,6 @@
 import React from 'react';
-import {render} from 'react-dom';
+import { render } from 'react-dom';
 
-import Pace from 'react-pace-progress';
+import Pace from '../src/index';
 
-render(<Pace/>, document.getElementById('main'));
+render(<Pace />, document.getElementById('main'));

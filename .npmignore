@@ -2,10 +2,6 @@ src
 spec
 resource
 example
-.babelrc
-.editorconfig
-.eslintrc
+dev-tools
 .gitignore
 .DS_Store
-*.log
-.idea
